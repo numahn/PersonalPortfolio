@@ -24,8 +24,16 @@ export default function RootLayout({ children }) {
             <Link href="/">Projects</Link>
           </div>
         </div>
+        <div className='nav-icons'>
+            <div>
+              L
+            </div>
+            <div>
+              G
+            </div>
+        </div>
         {children}
-        </body>
+      </body>
     </html>
   )
 }

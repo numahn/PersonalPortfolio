@@ -24,3 +24,8 @@ body{
   text-decoration: underline;
   text-underline-offset: 10px;
 }
+
+.nav-icons{
+  display: flex;
+  justify-content: flex-end;
+}
