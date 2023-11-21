@@ -15,17 +15,25 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className='navbar'>
           <div className='nav-item'>
-            {/* <Link href="/">Home</Link> */}Home
+            <Link href="/">Home</Link>
           </div>
           <div className='nav-item'>
-            <Link href="/">About</Link>
+            <Link href="/about">About</Link>
           </div>
           <div className='nav-item'>
-            <Link href="/">Proejcts</Link>
+            <Link href="/projects">Projects</Link>
           </div>
         </div>
+        <div className='nav-icons'>
+            <div>
+              L
+            </div>
+            <div>
+              G
+            </div>
+        </div>
         {children}
-        </body>
+      </body>
     </html>
   )
 }

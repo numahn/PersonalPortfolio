@@ -3,7 +3,9 @@
   padding: 0;
   margin: 0;
 }
-
+a {
+  color: inherit;
+}
 body{
   background-color: black;
   color: white;
@@ -21,4 +23,9 @@ body{
 .nav-item{
   text-decoration: underline;
   text-underline-offset: 10px;
+}
+
+.nav-icons{
+  display: flex;
+  justify-content: flex-end;
 }
