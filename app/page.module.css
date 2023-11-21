@@ -1,6 +1,6 @@
 .titleCont {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .hello{
@@ -15,7 +15,11 @@
 }
 
 .profilePic{
- 
+ border-radius: 1000px;
+}
+
+.animationCont{
+  width: 347px;
 }
 
 @keyframes typing {
