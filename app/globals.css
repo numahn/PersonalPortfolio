@@ -20,7 +20,7 @@ body{
 .navbar{
   width: 2000px;
   padding-top: 10px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   font-size: 20px;
   display: flex;
   justify-content: space-around;
@@ -39,4 +39,12 @@ body{
 .icon{
   margin-right: 10px;
   cursor: pointer;
+  transition: transform .5s;
+}
+.resume{
+  color: white;
+}
+
+a:hover .icon{
+  transform: scale(1.5);
 }

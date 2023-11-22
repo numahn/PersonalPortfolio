@@ -9,9 +9,8 @@ export default function Home() {
           <div className={styles.animationCont}>
             <p className={styles.hello}>Hey, I'm Noman.</p>
           </div>
-          <Image className={styles.profilePic} src={mfw.src} alt="profilepic" width={300} height={300}></Image>
+          <Image className={styles.profilePic} src={mfw.src} alt="profilepic" width={350} height={350}></Image>
         </div>
-        
       </div>
    </>
   )
