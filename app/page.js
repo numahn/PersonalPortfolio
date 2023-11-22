@@ -11,6 +11,8 @@ export default function Home() {
           </div>
           <Image className={styles.profilePic} src={mfw.src} alt="profilepic" width={350} height={350}></Image>
         </div>
+        <p className={`${styles.text} ${styles.soft}`}>Software Engineer &<br></br>Network Engineer</p>
+        <p classname={styles.about}>ASDFJAHFJADHFGJDAHGJDAHGTJADHGJADHGJADHJHGAD</p>
       </div>
    </>
   )

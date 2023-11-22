@@ -41,9 +41,6 @@ body{
   cursor: pointer;
   transition: transform .5s;
 }
-.resume{
-  color: white;
-}
 
 a:hover .icon{
   transform: scale(1.5);

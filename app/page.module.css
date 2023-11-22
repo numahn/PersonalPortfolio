@@ -4,7 +4,7 @@
 }
 
 .hello{
-  font-size: 36px;
+  font-size: 40px;
   overflow: hidden;
   border-right: .15em solid white;
   white-space: nowrap;
@@ -19,7 +19,7 @@
 }
 
 .animationCont{
-  width: 347px;
+  width: 380px;
 }
 
 @keyframes typing {
@@ -27,7 +27,7 @@
     width: 0;
   }
   100%{
-    width: 347px;
+    width: 380px;
   }
 }
 
@@ -38,4 +38,19 @@
   50%{
     border-color: white;
   }
+}
+
+.text{
+  font-size: 24px;
+  opacity: 40%;
+}
+
+.soft{
+  margin-top: -300px;
+  margin-left: 500px;
+  max-width: 500px;
+}
+
+.about{
+  margin-top: 100px;
 }
