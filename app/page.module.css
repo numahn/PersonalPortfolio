@@ -1,74 +1,88 @@
 .titleCont {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  /* justify-content: space-between; */
 }
 
-.hello{
+.hello {
   font-size: 40px;
   overflow: hidden;
-  border-right: .15em solid white;
+  border-right: 0.15em solid white;
   white-space: nowrap;
-  letter-spacing: .15em;
-  animation: 
-    typing 2s steps(50, end),
-    blink-caret .75s step-end infinite;
+  letter-spacing: 0.15em;
+  animation: typing 2s steps(50, end), blink-caret 0.75s step-end infinite;
 }
 
-.profilePic{
- border-radius: 1000px;
+.profilePic {
+  border-radius: 1000px;
 }
 
-.animationCont{
+.animationCont {
   width: 380px;
 }
 
 @keyframes typing {
-  0%{
+  0% {
     width: 0;
   }
-  100%{
+  100% {
     width: 380px;
   }
 }
 
 @keyframes blink-caret {
-  0%, 100%{
+  0%,
+  100% {
     border-color: transparent;
   }
-  50%{
+  50% {
     border-color: white;
   }
 }
 
-.text{
+.text {
   font-size: 24px;
 }
-.blur{
+.blur {
   opacity: 40%;
 }
-.soft{
-  margin-top: -300px;
+.soft {
+  /* margin-top: -300px;
   margin-left: 500px;
-  max-width: 500px;
+  max-width: 500px; */
 }
 
-.aboutCont{
+.aboutCont {
+  /* height: 100%; */
+  /* width: 100%; */
+  /* display: flex; */
+  /* justify-content: center; */
+  margin-left: 3rem;
+  margin-top: 5rem;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
 }
-.about{
+.about {
   font-size: 24px;
-  margin-top: 200px;
-  margin-left: -375px;
-  width: 750px;
+  /* margin-top: 200px; */
+  /* margin-left: -375px; */
+  width: 40rem;
 }
 
-.test{
-  height: 100%;
+.test {
+  margin-right: 1rem;
   border-left: 4px solid white;
-  margin-left: -375px;
+  opacity: 40%;
+  /* margin-left: -375px; */
 }
 
-.test2{
+.test2 {
   display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 15rem 0 15rem;
 }
