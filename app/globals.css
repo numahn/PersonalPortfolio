@@ -12,9 +12,15 @@ body{
   font-family: 'Trebuchet MS', sans-serif; ;
 }
 
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+}
+
 .navbar{
+  width: 2000px;
   padding-top: 10px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   font-size: 20px;
   display: flex;
   justify-content: space-around;
@@ -26,6 +32,16 @@ body{
 }
 
 .nav-icons{
+  padding-top: 10px;
   display: flex;
   justify-content: flex-end;
+}
+.icon{
+  margin-right: 10px;
+  cursor: pointer;
+  transition: transform .5s;
+}
+
+a:hover .icon{
+  transform: scale(1.5);
 }
