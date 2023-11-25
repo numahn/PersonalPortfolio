@@ -7,6 +7,12 @@ export default function Page() {
         <div className={styles.projTable}>
           <div className={styles.project}>Project 1</div>
           <div className={styles.project}>Project 2</div>
+          <div className={styles.project}>Project 2</div>
+          <div className={styles.project}>Project 2</div>
+          <div className={styles.project}>Project 2</div>
+          <div className={styles.project}>Project 2</div>
+          {/* <div className={styles.project}>Project 2</div>
+          <div className={styles.project}>Project 2</div> */}
         </div>
       </div>
     </>
