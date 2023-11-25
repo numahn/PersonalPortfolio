@@ -35,10 +35,15 @@
   border: 2px solid white;
   border-radius: 5px;
   margin: 10rem 2rem -6rem 2rem;
-  transition: transform 1s;
+  transition: transform .5s;
 }
 
 .project:hover {
+  transform: translateY(-1rem);
+
+}
+
+.project2:hover {
   transform: translateY(-1rem);
 
 }
