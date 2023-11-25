@@ -5,8 +5,16 @@
   margin: 0 15rem 0 15rem;
 }
 
-.projTable{
+.projTable {
   display: flex;
   flex-direction: row;
-  
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  min-width: 400px;
+  min-height: 250px;
+  border: 2px solid white;
+  border-radius: 5px;
 }
