@@ -18,7 +18,7 @@
 }
 
 .animationCont {
-  width: 24rem;
+  width: 24.5rem;
 }
 
 @keyframes typing {
@@ -26,7 +26,7 @@
     width: 0;
   }
   100% {
-    width: 24rem;
+    width: 24.5rem;
   }
 }
 
