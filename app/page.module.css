@@ -4,7 +4,7 @@
 }
 
 .hello {
-  font-size: 40px;
+  font-size: 2.5rem;
   overflow: hidden;
   border-right: 0.15em solid white;
   white-space: nowrap;
@@ -17,7 +17,7 @@
 }
 
 .animationCont {
-  width: 25rem;
+  width: 24rem;
 }
 
 @keyframes typing {
@@ -25,7 +25,7 @@
     width: 0;
   }
   100% {
-    width: 25rem;
+    width: 24rem;
   }
 }
 

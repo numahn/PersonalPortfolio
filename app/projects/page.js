@@ -7,8 +7,7 @@ export default function Page() {
         <div className={styles.projTable}>
           <div className={`${styles.project} ${styles.pr1}`}>Project 1</div>
           <div className={`${styles.pr2} ${styles.project}`}>Project 2</div>
-          <div className={`${styles.project} ${styles.pr1}`}>Project 2</div>
-          {/* <div className={styles.project2}>Project 2</div> */}
+          <div className={`${styles.project} ${styles.pr1}`}>Project 3</div>
           {/* <div className={styles.project}>Project 2</div>
           <div className={styles.project}>Project 2</div> */}
           {/* <div className={styles.project}>Project 2</div>
