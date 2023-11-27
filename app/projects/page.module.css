@@ -24,10 +24,13 @@
   height: 12.5rem;
   border: 2px solid white;
   border-radius: 5px;
-  transition: transform .5s;
+  transition: transform 0.5s;
   cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.pr1{
+.pr1 {
   margin: 2px;
 }
 
@@ -43,15 +46,24 @@
   cursor: pointer;
 } */
 
-.pr2{
+.pr2 {
   margin: 10rem 2rem -6rem 2rem;
 }
 .project:hover {
   transform: translateY(-1rem);
-
 }
 
 .project2:hover {
   transform: translateY(-1rem);
+}
 
+.first {
+  background-image: url("../../public/ggc.png");
+}
+
+.second {
+  background-image: url("../../public/technotes.png");
+}
+
+.third {
 }
