@@ -31,25 +31,10 @@
   background-repeat: no-repeat;
 }
 
-
-/* .project2 {
-  display: flex;
-  justify-content: center;
-  min-width: 300px;
-  min-height: 200px;
-  border: 2px solid white;
-  border-radius: 5px;
-  margin: 10rem 2rem -6rem 2rem;
-  transition: transform .5s;
-  cursor: pointer;
-} */
-
 .pr2 {
   margin: 10rem 2rem -6rem 2rem;
 }
-/* .project:hover {
-  transform: translateY(-1rem);
-} */
+
 .projHolder:hover .project{
   transform: translateY(-1rem)
 }
