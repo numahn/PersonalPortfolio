@@ -103,7 +103,13 @@
 .descIcon {
   display: flex;
   justify-content: flex-end;
-  padding-bottom: 1px;
+  margin-top: 1rem;
+}
+
+
+.stack {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* @keyframes slide {

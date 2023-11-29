@@ -17,18 +17,21 @@ export default function Page() {
             </Link>
             <div className={styles.desc}>
               <p style={{ paddingBottom: ".5rem" }}>Goat Grade Collectables</p>
-              <p className={styles.blurb}>
+              <p className={styles.blurb} style={{ paddingBottom: ".5rem" }}>
                 Create an account and start opening up cards of your favorite
                 NBA players to showcase!
               </p>
-              <Link className={styles.descIcon} href="https://github.com/numahn/NBAGatchaFrontend">
-                <Image
-                  src={githubicon.src}
-                  alt="github"
-                  width={20}
-                  height={20}
-                ></Image>
-              </Link>
+              <div className={styles.stack}>
+                <p>PostgreSQL, React, Express.js, Node.js</p>
+                <Link className={styles.descIcon} href="https://github.com/numahn/NBAGatchaFrontend">
+                  <Image
+                    src={githubicon.src}
+                    alt="github"
+                    width={20}
+                    height={20}
+                  ></Image>
+                </Link>
+              </div>
             </div>
           </div>
           <div className={styles.projHolder}>
@@ -37,17 +40,43 @@ export default function Page() {
             ></div>
             <div className={styles.desc2}>
               <p style={{ paddingBottom: ".5rem" }}>TechNotes</p>
-              <p>Have your own personal cloud storage of note taking / photos at the
+              <p style={{ paddingBottom: ".5rem" }}>Have your own personal cloud storage of note taking / photos at the
                 tip of your fingers!
               </p>
-              
+              <div className={styles.stack}>
+                <p>Used React, Node.js, Express.js, MySQL</p>
+                <Link className={styles.descIcon} href="https://github.com/numahn/TechNotesBackendJS">
+                  <Image
+                    src={githubicon.src}
+                    alt="github"
+                    width={20}
+                    height={20}
+                  ></Image>
+                </Link>
+              </div>
             </div>
           </div>
           <div className={styles.projHolder}>
             <div
               className={`${styles.project} ${styles.pr1} ${styles.first}`}
             ></div>
-            <p className={styles.desc}>asdf</p>
+            <div className={styles.desc}>
+              <p style={{ paddingBottom: ".5rem" }}>OpenAI Chatbot</p>
+              <p style={{ paddingBottom: ".5rem" }}>
+                Have your very own AI assistant awaiting and answering your every question!
+              </p>
+              <div className={styles.stack}>
+                <p>Used Python, Django, HTML, CSS, JavaScript, SQLite</p>
+                <Link className={styles.descIcon} href="https://github.com/numahn/TechNotesBackendJS">
+                  <Image
+                    src={githubicon.src}
+                    alt="github"
+                    width={20}
+                    height={20}
+                  ></Image>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
