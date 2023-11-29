@@ -8,7 +8,7 @@ export default function Home() {
         <div className={styles.container}>
           <div className={styles.titleCont}>
             <div className={styles.animationCont}>
-              <p className={styles.hello}>Hey, I'm Noman.</p>
+              <p className={styles.hello} >Hey, I'm Noman.</p>
             </div>
             <p className={`${styles.text} ${styles.soft} ${styles.blur}`}>
               Software Engineer &<br></br>Network Engineer
