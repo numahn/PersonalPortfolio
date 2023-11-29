@@ -65,35 +65,39 @@
   border: 2px solid white;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  transition: max-height 0.3s ease-out
+  transition: max-height 0.5s ease-out
 }
 
 .desc2 { 
   margin: 2rem;
   margin-top: 4.5rem;
   padding-top: .5rem;
-  height: 0;
+  position: relative;
+  max-height: 0;
+  z-index: -999;
+  overflow: hidden;
   background-color: gray;
   width: 18.75rem;
-  display: none;
+  display: flex;
+  flex-direction: column;
   border: 2px solid white;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  transition: max-height 0.3s ease-out
+  transition: max-height 0.5s ease-out
 }
 
 .projHolder:hover .desc{
   /* animation: slide .3s steps(100, end); */
   max-height: 20rem;
-  transition: max-height 0.3s ease-out;
+  transition: max-height 1s ease-out;
   z-index: -999;
   
 }
 
 .projHolder:hover .desc2{
-  animation: slide .3s steps(100, end);
-  height: 10rem;
-  display: block;
+  max-height: 20rem;
+  transition: max-height 1s ease-out;
+  z-index: -999;
 }
 
 .descIcon {

@@ -35,7 +35,13 @@ export default function Page() {
             <div
               className={`${styles.project} ${styles.pr2} ${styles.second}`}
             ></div>
-            <p className={styles.desc2}>asdf</p>
+            <div className={styles.desc2}>
+              <p style={{ paddingBottom: ".5rem" }}>TechNotes</p>
+              <p>Have your own personal cloud storage of note taking / photos at the
+                tip of your fingers!
+              </p>
+              
+            </div>
           </div>
           <div className={styles.projHolder}>
             <div
