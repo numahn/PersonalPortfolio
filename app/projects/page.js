@@ -41,7 +41,7 @@ export default function Page() {
           <div className={styles.projHolder}>
             <Link href="https://github.com/numahn/python-gpt">
               <div
-                className={`${styles.project} ${styles.pr1} ${styles.first}`}
+                className={`${styles.project} ${styles.pr1} ${styles.third}`}
               ></div>
             </Link>
             <div className={styles.desc}>
