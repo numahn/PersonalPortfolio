@@ -67,7 +67,7 @@ export default function Page() {
               </p>
               <div className={styles.stack}>
                 <p>Used Python, Django, HTML, CSS, JavaScript, SQLite</p>
-                <Link className={styles.descIcon} href="https://github.com/numahn/TechNotesBackendJS">
+                <Link className={styles.descIcon} href="https://github.com/numahn/python-gpt">
                   <Image
                     src={githubicon.src}
                     alt="github"
