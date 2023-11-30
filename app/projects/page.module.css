@@ -30,6 +30,7 @@
   background-position: center;
   background-repeat: no-repeat;
   z-index: 0;
+  animation: appear 1s;
 }
 
 .pr2 {
@@ -66,7 +67,8 @@
   border: 2px solid white;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  transition: max-height 0.5s ease-out
+  transition: max-height 0.5s ease-out;
+  animation: appearAfter 1s;
 }
 
 .desc2 { 
@@ -84,7 +86,8 @@
   border: 2px solid white;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  transition: max-height 0.5s ease-out
+  transition: max-height 0.5s ease-out;
+  animation: appearAfter 1s;
 }
 
 .projHolder:hover .desc{
@@ -113,6 +116,30 @@
 .stack {
   display: flex;
   justify-content: space-between;
+}
+
+
+@keyframes appearAfter {
+  0% {
+    display: none;
+  }
+  98% {
+    display: none;
+  }
+  100% {
+    display: flex;
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0);
+  }
 }
 
 /* @keyframes slide {
