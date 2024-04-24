@@ -9,6 +9,20 @@ export default function Page() {
       <div className={styles.container}>
         <p className={styles.title}>Projects</p>
         <div className={styles.projTable}>
+        <div className={styles.projHolder}>
+            <Link href="https://github.com/numahn/python-gpt">
+              <div
+                className={`${styles.project} ${styles.pr1} ${styles.third}`}
+              ></div>
+            </Link>
+            <div className={styles.desc}>
+              <p style={{ paddingBottom: ".5rem" }}>OpenAI Chatbot</p>
+              <p style={{ paddingBottom: ".5rem" }}>
+                Have your very own AI assistant awaiting and answering your every question!
+              </p>
+              <p>Used Python, Django, HTML, CSS, JavaScript, SQLite</p>
+            </div>
+          </div>
           <div className={styles.projHolder}>
             <Link href="https://github.com/numahn/NBAGatchaFrontend">
               <div
@@ -52,9 +66,6 @@ export default function Page() {
               <p>Used Python, Django, HTML, CSS, JavaScript, SQLite</p>
             </div>
           </div>
-          
-          
-          
         </div>
         
       </div>
