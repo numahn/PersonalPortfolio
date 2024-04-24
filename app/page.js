@@ -26,8 +26,8 @@ export default function Home() {
                 Growing up I was always exposed to technology and was fascinated with the technology 
                 and software around us and how it all came together. Now I create my own software, working on 
                 projects that you can check out here!
-                I have experience both professionally at a startup, as well as experience with the many projects I work on.
-                To learn more, check out the projects tab along with my resume and GitHub at the top right!
+                I have experience from interning at a startup (HData), to being a freelance developer and the many projects I build
+                to get better at my craft. To learn more, check out the projects tab along with my resume and GitHub at the top right!
               </p>
             </div>
           </div>
