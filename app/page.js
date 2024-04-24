@@ -11,22 +11,15 @@ export default function Home() {
               <p className={styles.hello} >Hey, I'm Noman.</p>
             </div>
             <p className={`${styles.text} ${styles.soft} ${styles.blur}`}>
-              Software Engineer &<br></br>Network Engineer
+              Software Engineer
+            </p>
+            <p className={`${styles.smalltext} ${styles.soft} ${styles.blur}`}>
+              TypeScript/JavaScript, React.js, Node.js, Next.js
             </p>
 
             <div className={styles.aboutCont}>
-              <div className={styles.test}></div>
+              <div className={styles.vertLine}></div>
               <p className={styles.about}>
-                {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum. */}
-                A software engineer/network engineer with experience in JavaScript, 
-                React, Node.js, Next.js, Python, and more.
-                <br></br><br></br>
                 Growing up I was always exposed to technology and was fascinated with
                 all the technology and software around us and how it came together. Now, I create
                 my own projects and software using the skills I learned from my professional 

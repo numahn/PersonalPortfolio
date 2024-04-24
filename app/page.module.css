@@ -39,6 +39,10 @@
   }
 }
 
+
+.smalltext{
+  font-size: 1rem;
+}
 .text {
   font-size: 1.5rem;
 }
@@ -47,17 +51,18 @@
 }
 
 .aboutCont {
-  margin-left: 3rem;
+  margin-left: 2rem;
   margin-top: 5rem;
   display: flex;
   flex-direction: row;
+  margin-right: 3rem;
 }
 .about {
   font-size: 1.5rem;
   width: 40rem;
 }
 
-.test {
+.vertLine {
   margin-right: 1rem;
   border-left: 4px solid white;
   opacity: 40%;
