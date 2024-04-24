@@ -24,7 +24,7 @@ export default function Page() {
             </div>
           </div>
           <div className={styles.projHolder}>
-            <Link href="https://github.com/numahn/NBAGatchaFrontend">
+            <Link href="https://ggc-numahn.vercel.app/">
               <div
                 className={`${styles.project} ${styles.pr1} ${styles.first}`}
               ></div>
