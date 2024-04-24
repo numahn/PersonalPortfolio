@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
 import Image from "next/image";
-import mfw from "@/public/mfw.png";
+import pfp from "@/public/pfp.png";
 export default function Home() {
   return (
     <>
@@ -34,7 +34,7 @@ export default function Home() {
 
           <Image
             className={styles.profilePic}
-            src={mfw.src}
+            src={pfp.src}
             alt="profilepic"
             width={350}
             height={350}
