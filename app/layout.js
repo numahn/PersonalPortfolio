@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
           <div className='nav-icons'>
             <Link href="https://www.linkedin.com/in/noman-710/"> <Image className='linkedin icon' src={linkedinicon.src} alt="LinkedIn" width={20} height={20}></Image> </Link>
             <Link href="https://github.com/numahn"> <Image className='github icon' src={githubicon.src} alt="GitHub" width={20} height={20}></Image> </Link>
-            <Link href="" > <Image className='resume icon' src={resumeicon.src} alt="Resume" width={20} height={20}></Image> </Link>
+            <Link href="/resume.pdf" > <Image className='resume icon' src={resumeicon.src} alt="Resume" width={20} height={20}></Image> </Link>
           </div>
         </div>
         {children}
