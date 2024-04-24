@@ -23,9 +23,11 @@ export default function Home() {
                 Welcome to my website! I am a software engineer specializing(and improving myself) in TS/JS, React, Node.js
                 and Next.js. I also love to learn more about the vast internet and networks, cementing my knowledge
                 with my CCNA. <br></br>
-                Growing up I was always exposed to technology and was fascinated with
-                the technology and software around us and how it all came together. Now I create my own software, working on 
+                Growing up I was always exposed to technology and was fascinated with the technology 
+                and software around us and how it all came together. Now I create my own software, working on 
                 projects that you can check out here!
+                I have experience both professionally at a startup, as well as experience with the many projects I work on.
+                To learn more, check out the projects tab along with my resume and GitHub at the top right!
               </p>
             </div>
           </div>
