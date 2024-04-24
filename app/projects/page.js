@@ -27,10 +27,10 @@ export default function Page() {
           <div className={styles.projHolder}>
             <Link href="https://github.com/numahn/TechNotesBackendJS">
               <div
-                className={`${styles.project} ${styles.pr2} ${styles.second}`}
+                className={`${styles.project} ${styles.pr1} ${styles.second}`}
               ></div>
             </Link>
-            <div className={styles.desc2}>
+            <div className={styles.desc}>
               <p style={{ paddingBottom: ".5rem" }}>TechNotes</p>
               <p style={{ paddingBottom: ".5rem" }}>Have your own personal cloud storage of note taking / photos at the
                 tip of your fingers!
@@ -52,20 +52,7 @@ export default function Page() {
               <p>Used Python, Django, HTML, CSS, JavaScript, SQLite</p>
             </div>
           </div>
-          <div className={styles.projHolder}>
-            <Link href="https://github.com/numahn/TechNotesBackendJS">
-              <div
-                className={`${styles.project} ${styles.pr2} ${styles.second}`}
-              ></div>
-            </Link>
-            <div className={styles.desc2}>
-              <p style={{ paddingBottom: ".5rem" }}>TechNotes</p>
-              <p style={{ paddingBottom: ".5rem" }}>Have your own personal cloud storage of note taking / photos at the
-                tip of your fingers!
-              </p>
-              <p>Used React, Node.js, Express.js, MySQL</p>
-            </div>
-          </div>
+          
           
           
         </div>
