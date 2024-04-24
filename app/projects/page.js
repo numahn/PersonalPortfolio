@@ -10,17 +10,17 @@ export default function Page() {
         <p className={styles.title}>Projects</p>
         <div className={styles.projTable}>
         <div className={styles.projHolder}>
-            <Link href="https://github.com/numahn/python-gpt">
+            <Link href="https://www.betwiz.us/">
               <div
-                className={`${styles.project} ${styles.pr1} ${styles.third}`}
+                className={`${styles.project} ${styles.pr1} ${styles.betwiz}`}
               ></div>
             </Link>
             <div className={styles.desc}>
-              <p style={{ paddingBottom: ".5rem" }}>OpenAI Chatbot</p>
+              <p style={{ paddingBottom: ".5rem" }}>Betwiz.us</p>
               <p style={{ paddingBottom: ".5rem" }}>
-                Have your very own AI assistant awaiting and answering your every question!
+                Make only the best sports bets to help you profit!
               </p>
-              <p>Used Python, Django, HTML, CSS, JavaScript, SQLite</p>
+              <p>Used TypeScript, React, Next.js, Tailwind CSS</p>
             </div>
           </div>
           <div className={styles.projHolder}>
@@ -52,7 +52,7 @@ export default function Page() {
               <p>Used React, Node.js, Express.js, MySQL</p>
             </div>
           </div>
-          <div className={styles.projHolder}>
+          {/* <div className={styles.projHolder}>
             <Link href="https://github.com/numahn/python-gpt">
               <div
                 className={`${styles.project} ${styles.pr1} ${styles.third}`}
@@ -64,6 +64,20 @@ export default function Page() {
                 Have your very own AI assistant awaiting and answering your every question!
               </p>
               <p>Used Python, Django, HTML, CSS, JavaScript, SQLite</p>
+            </div>
+          </div> */}
+          <div className={styles.projHolder}>
+            <Link href="https://www.swiftminibushire.co.uk/">
+              <div
+                className={`${styles.project} ${styles.pr1} ${styles.minibus}`}
+              ></div>
+            </Link>
+            <div className={styles.desc}>
+              <p style={{ paddingBottom: ".5rem" }}>Swift Minibus Hire</p>
+              <p style={{ paddingBottom: ".5rem" }}>
+                Affordable minibus hire service in the UK for a variety of scenarios!
+              </p>
+              <p>Used JavaScript, HTML, CSS, WordPress</p>
             </div>
           </div>
         </div>

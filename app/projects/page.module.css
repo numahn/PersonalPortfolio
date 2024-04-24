@@ -52,6 +52,11 @@
 .third {
   background-image: url("../../public/pychatbot.png")
 }
+.betwiz {
+  background-image: url("../../public/betwiz.png");
+}.minibus {
+  background-image: url("../../public/minibus.png");
+}
 
 .desc { 
   margin-top: -1.5rem;
