@@ -20,13 +20,12 @@ export default function Home() {
             <div className={styles.aboutCont}>
               <div className={styles.vertLine}></div>
               <p className={styles.about}>
+                Welcome to my website! I am a software engineer specializing(and improving myself) in TS/JS, React, Node.js
+                and Next.js. I also love to learn more about the vast internet and networks, cementing my knowledge
+                with my CCNA. <br></br>
                 Growing up I was always exposed to technology and was fascinated with
-                all the technology and software around us and how it came together. Now, I create
-                my own projects and software using the skills I learned from my professional 
-                experience and other projects, and am always learning more about both
-                programming and how our vast networks are held together. 
-                Always passionate about software engineering, networking, and all the
-                little details of any piece of technology.
+                the technology and software around us and how it all came together. Now I create my own software, working on 
+                projects that you can check out here!
               </p>
             </div>
           </div>
